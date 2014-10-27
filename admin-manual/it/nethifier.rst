@@ -6,6 +6,8 @@ Nethifier
 
 Versioni di Windows compatibili: Windows 7 (64 bit) e Windows 8.
 
+Per la personalizzazione dei popup seguire la :ref:`documentazione. <custom-nethifier-label>`
+
 Requisiti
 =========
 
