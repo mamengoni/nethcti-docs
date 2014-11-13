@@ -127,10 +127,10 @@ Personalizzazione della grafica
 -------------------------------
 
 È sufficiente personalizzare il codice HTML e/o CSS dei template indicati. Supponiamo ad esempio di
-voler modificare il colore del **nome e numero chiamante** in verde nel template `call.html`: sarà sufficiente
-aggiungere la regola css `"color: green"` nel selettore `".contact-info"`, che diventerà:
+voler modificare il colore del **nome e numero chiamante** in verde nel template ``call.html``: sarà sufficiente
+aggiungere la regola css ``color: green`` nel selettore ``.contact-info``, che diventerà:
 
-::
+.. code-block:: css
 
     .contact-info {
         font-family: verdana;
@@ -230,7 +230,9 @@ corrispondenza del click sullo stesso. Supponiamo ad esempio di voler inserire
 un nuovo pulsante nel template *"call.html"* cliccando il quale eseguire il nuovo
 comando "gestionale".
 
-Il codice HTML del nuovo pulsante grafico da inserire in *call.html* sarà: ::
+Il codice HTML del nuovo pulsante grafico da inserire in *call.html* sarà:
+
+.. code-block:: html
 
     <div class="contact-action">
         <div id="open-gestionale-but" cmd="gestionale" arg="" close="1" class="button" title="">Gestionale</div>
@@ -240,7 +242,7 @@ Il codice HTML del nuovo pulsante grafico da inserire in *call.html* sarà: ::
 se si desidera passare l'identificativo del chiamante come parametro al programma di Windows,
 è necessario aggiungere il seguente codice javascript in coda alla funzione `window.onload`:
 
-::
+.. code-block:: javascript
 
  $('#open-gestionale-but').attr('arg', params.callerNum);
 

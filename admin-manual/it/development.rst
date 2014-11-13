@@ -20,7 +20,7 @@ Eseguire il login
 
 specificando lo _username_ e _password_ in formato JSON:
 
-::
+.. code-block:: json
 
  { "username": "my_user", "password": "my_password" }
 
@@ -32,7 +32,7 @@ specificando lo _username_ e _password_ in formato JSON:
 
 3. Il client calcola il token:
 
-::
+.. code-block:: bash
 
  tohash = username + ':' + password + ':' + nonce
  token  = HMAC-SHA1(tohash, password)
@@ -152,7 +152,7 @@ L'autenticazione ha successo e il server risponde con:
 
 5. Il server invia la risposta in format JSON con i dati richiesti:
 
-::
+.. code-block:: json
 
  {
     "centralized": [
