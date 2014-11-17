@@ -80,6 +80,15 @@ Pannello operatore
 
    operator
 
+Supervisore Code
+----------------
+
+.. toctree::
+      :maxdepth: 2
+
+   queueman
+
+
 Sviluppo
 ------------------------
 
