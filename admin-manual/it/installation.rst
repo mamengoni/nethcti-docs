@@ -24,7 +24,7 @@ Aggiornamento dalla versione 2.x
 
 Per l'aggiornamento del server eseguire: ::
 
-  yum --enablerepo=nethvoice-11-upgrades update nethcti-server
+  yum --enablerepo=nethvoice-11-upgrades,nethupgrade update nethcti-server
 
 L'aggiornamento del client avviene in automatico.
 
