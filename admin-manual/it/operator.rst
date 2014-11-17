@@ -24,7 +24,7 @@ L'installazione del modulo |product_op| deve essere fatta dal modulo Gestione Pa
 
 
 
-Aggiorrnamento
+Aggiornamento
 =============
 
 L'aggironamento del |product_op| è automatico.
