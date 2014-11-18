@@ -12,6 +12,8 @@ Per installare il client eseguire ::
 
   yum install nethcti
 
+.. note:: Subito dopo la prima installazione è necessario procedere con la configurazione minima di utenti e profili.
+
 Installazione chat su |product_nethserver|
 =================================================
 
