@@ -5,6 +5,9 @@
 Modalità Operative
 ==================
 
+Il modulo |product_op| nasce per consentire la gestione delle chiamate in ingresso con operazioni facilitate dal drag and drop e dalla conoscenza dello stato di tutti gli interni.
+E' stato pensato per favorire il lavoro del centralinista. 
+
 Il |product_op| è raggiungibile all'indirizzo: https://_server_/oppanel
 
 Il |product_op| può lavorare in due modalità: 
