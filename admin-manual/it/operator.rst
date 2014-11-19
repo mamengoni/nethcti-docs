@@ -19,7 +19,7 @@ Le due modalità sono mutuamente esclusive: non possono essere usate contemporan
 
 .. note:: Prima di procedere con l'installazione assicurarsi di avere aggiornato |parent_product| seguendo la relativa pagina di `manuale <https://docs.nethesis.it/Manuale_NethVoice#Aggiornamento_NethVoice>`_.
 
-.. warning:: Per utilizzare la modalità WebRTC è necessario accettare, meglio se definitivamente, il certificato all’indirizzo https://ip_server:8089/ws ed eventualemente anche http://nome_server.dominio:8089/ws
+.. warning:: Per utilizzare la modalità WebRTC è necessario accettare, meglio se definitivamente, il certificato all’indirizzo https://ip_server:8089/ws ed eventualmente anche http://nome_server.dominio:8089/ws
 
 
 Installazione
@@ -59,7 +59,7 @@ I parametri  base sono:
 
 .. note ::
 
-  é fondamentale che su |parent_product|, nella gestione utenti del CTI, sia stato creato l'utente con cui viene fatta l'autenticazione LDAP, e che questo sia correttamente associato all'interno specificato in questa configurazione.
+  è fondamentale che su |parent_product|, nella gestione utenti del CTI, sia stato creato l'utente con cui viene fatta l'autenticazione LDAP, e che questo sia correttamente associato all'interno specificato in questa configurazione.
 
 
 Modalità Softphone WebRTC integrato
@@ -108,7 +108,7 @@ Nella colonna di sinistra ci sono:
 * pulsante per parcheggiare la chiamata in corso
 
 
-Nella colonna di denstra invece:
+Nella colonna di destra invece:
 
 * pulsante per la creazione di un postit
 * pulsante per consultare la casella vocale
@@ -118,7 +118,7 @@ In caso di scelta per il telefono fisico i pulsanti funzionali vengono mappati c
 
 La parte centrale della sezione dedicata al proprio interno funge da vero e proprio display per il proprio telefono.
 Viene mostrato il totale delle conversazioni attive e la durata di quella in linea in più cliccandoci sopra è possibile digitare un numero o un nome per effettuare una chiamata.
-La digitazione del terzo carattere attivirà la ricerca in rubrica.
+La digitazione del terzo carattere attiverà la ricerca in rubrica.
 
 La sezione superiore a destra mostra invece lo stato della coda di attesa e dei parcheggi.
 La coda di attesa ha lo scopo di mettere in attesa le chiamate se si sta usando la modalità webRTC in quanto non è possibile utilizzare la funzionalità di attesa del telefono fisico.
@@ -128,7 +128,7 @@ I parcheggi forniscono una modalità alternativa per mettere in attesa una chiam
 La sezione inferiore mostra lo stato degli interni del centralino.
 Gli interni sono ordinabili per nome, cognome o interno telefonico ed è possibile effettuare una ricerca nel box in alto a sinistra.
 E' possibile vedere gli interni raggruppati secondo i gruppi pannello operatore configurati nel |parent_product|.
-Cliccando sui vari interni è possibile interegire con essi e seconda del loro stato vegno abilitate le funzionalità:
+Cliccando sui vari interni è possibile interagire con essi e seconda del loro stato vengono abilitate le funzionalità:
 
 * interno non occupato cliccandoci parte la chiamata ad esso
 * interno occupato: termina chiamata in corso, ascolto chiamata in corso, intromissione chiamata in corso, registrazione chiamata in corso ed eventuale pausa o fine della registrazione

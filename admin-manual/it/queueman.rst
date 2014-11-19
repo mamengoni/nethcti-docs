@@ -36,7 +36,7 @@ La configurazione del |product_queueman| avviene al momento dell'autenticazione,
 
 I parametri richiesti sono:
 
-* Minimizza agenti: visione degli agenti in maniera miniutarizzata, questa modalità comporta una perdita di informazioni accessorie (stato chat, stato post-it in alto e in basso stato casella vocale, stato deviazioni di chiamata, stato non disturbare, stato agente generico, stato login |product|)
+* Minimizza agenti: visione degli agenti in maniera miniaturizzata, questa modalità comporta una perdita di informazioni accessorie (stato chat, stato post-it in alto e in basso stato casella vocale, stato deviazioni di chiamata, stato non disturbare, stato agente generico, stato login |product|)
 * Scheda Predefinita: scheda da aprire di default dopo il login
 * Utente: dati di accesso al |product_queueman|, username e password
 * Code: elenco delle code configurate in |parent_product| tra le quali scegliere quelle da visualizzare nel |product_queueman|.
@@ -46,13 +46,13 @@ Funzionamento
 
 Il |product_queueman| si articola in diverse schede.
 
-Come prima cosa vengono mostrate le code selezionate al momento dell'autenticazione, una in ogni scheda, poi ci sono le schede di defaul Realtime, Riepilogo e Monitor.
+Come prima cosa vengono mostrate le code selezionate al momento dell'autenticazione, una in ogni scheda, poi ci sono le schede di default Realtime, Riepilogo e Monitor.
 
 
 Coda
 ----
 
-Le schede delle code sono divise vericalmente a metà circa, la parte sinistra è dedicata alle chiamate, la parte destra agli agenti.
+Le schede delle code sono divise verticalmente a metà circa, la parte sinistra è dedicata alle chiamate, la parte destra agli agenti.
 
 La parte delle chiamate è a sua volta divisa in due parti, la parte superiore per le chiamate in attesa, la parte inferiore per le chiamate connesse.
 
@@ -72,7 +72,7 @@ La parte centrale del box di ogni agente mostra lo stato di login (verde), pausa
 
 Questa sezione quando l'agente risponde ad una chiamata proveniente dalla coda visualizzata si colorerà di azzurro, mentre se l'agente si trova al telefono per una chiamata estranea alla coda sarà colorata di rosso.
 
-La sezione in alto asinistra del box agente indica lo stato telefonico dell'interno del |parent_product| utilizzo dall'agente per il login, libero (verde), occupato (rosso), scollegato (grigio).
+La sezione in alto a sinistra del box agente indica lo stato telefonico dell'interno del |parent_product| utilizzo dall'agente per il login, libero (verde), occupato (rosso), scollegato (grigio).
 
 Successivamente ci sono i box per lo stato chat e i post-it.
 
@@ -83,7 +83,7 @@ A seconda dello stato dell'agente il click sul suo box abilita funzionalità div
 * interno non occupato: cliccandoci è possibile gestire la sua connessione alla coda facendo login, pausa, ripresa dalla pausa, logout a seconda dello stato
 * interno occupato: cliccandoci è possibile interagire con la chiamata in corso ascoltandola o intromettendosi, in più rimangono attive a seconda dello stato le funzionalità per gestire la connessione alla coda elencate prima
 
-In alto viene mostrato in tempo reale il totle degli agenti liberi, degli agenti non loggati, degli agenti in conversazione e degli agenti in pausa.
+In alto viene mostrato in tempo reale il totale degli agenti liberi, degli agenti non loggati, degli agenti in conversazione e degli agenti in pausa.
 
 
 Realtime
@@ -91,7 +91,7 @@ Realtime
 
 La scheda Realtime ha la funziona di mostrare in tempo reale lo stato di tutte le code del |parent_product| e di tutti gli agenti, tutti i dati vengono aggiornati in tempo reale.
 
-Questa sezione è divisa orizzontamente in due parti, la parte superiore dedicata alle code, quella inferiore agli agenti.
+Questa sezione è divisa orizzontalmente in due parti, la parte superiore dedicata alle code, quella inferiore agli agenti.
 
 Nella parte delle code, si trova l'elenco delle code configurate in |parent_product| e in tempo reale viene mostrato per ogni coda il totale delle chiamate in attesa, in conversazione e il totale degli agenti connessi, in pausa, disconnessi, in conversazione nella coda, liberi e occupati in generale (anche per chiamate non inerenti alla coda).
 
@@ -109,7 +109,7 @@ La prima parte dedicata alle code mostra le statistiche giornaliere delle code, 
 * percentuale sul totale delle chiamate evase
 * chiamate evase entro il tempo di livello di servizio indicato nella configurazione della coda nel |parent_product|
 * percentuale sul totale delle chiamate evase entro il tempo di livello di servizio
-* totale chiamate fallite, cioè chiamate xentrate in coda, rimaste in attesa per più di 50 secondi ma non gestite per abbandono
+* totale chiamate fallite, cioè chiamate entrate in coda, rimaste in attesa per più di 50 secondi ma non gestite per abbandono
 * percentuale sul totale delle chiamate fallite
 * chiamate nulle, cioè chiamate entrate in coda, rimaste in attesa per meno di 50 secondi ma non gestite per abbandono
 * percentuale sul totale delle chiamate nulle
@@ -120,7 +120,7 @@ La prima parte dedicata alle code mostra le statistiche giornaliere delle code, 
 * durata massima di una chiamata risposta
 * durata media di una chiamata risposta
 
-La seconda parte è dedicata agli agenti delle code, viene elencata ogni coppia agente-coda attiva nella giroanta odierna mostrando i seguenti dati:
+La seconda parte è dedicata agli agenti delle code, viene elencata ogni coppia agente-coda attiva nella giornata odierna mostrando i seguenti dati:
 
 * nome agente
 * stato del collegamento dell'agente alla coda: login (verde), pausa (giallo) e logout(grigio)
