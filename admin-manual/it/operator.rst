@@ -17,20 +17,25 @@ Il |product_op| può lavorare in due modalità:
 
 Le due modalità sono mutuamente esclusive: non possono essere usate contemporaneamente.
 
+.. note:: Prima di procedere con l'installazione assicurarsi di avere aggiornato |parent_product| seguendo la relativa pagina di `manuale <https://docs.nethesis.it/Manuale_NethVoice#Aggiornamento_NethVoice>`_.
 
-.. warning:: Per utilizzare la modalità WebRTC è necessario accettare, meglio se definitivamente, il certificato all'indirizzo https://ip_server:8089/ws ed eventualemente anche http://nome_server.dominio:8089/ws
+.. warning:: Per utilizzare la modalità WebRTC è necessario accettare, meglio se definitivamente, il certificato all’indirizzo https://ip_server:8089/ws ed eventualemente anche http://nome_server.dominio:8089/ws
+
 
 Installazione
 =============
 
-L'installazione del modulo |product_op| deve essere fatta dal modulo Gestione Pacchetti di |product_nethserver|.
+Per installare eseguire: ::
 
+ yum --enablerepo=nethupgrade install neth-oppanel
 
 
 Aggiornamento
 =============
 
-L'aggironamento del |product_op| è automatico.
+Per aggiornare eseguire: ::
+
+ yum --enablerepo=nethupgrade update neth-oppanel
 
 
 Configurazione
