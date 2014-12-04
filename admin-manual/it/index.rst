@@ -1,7 +1,7 @@
 .. NethCTI documentation master file
 
-Documentazione |product| 
-========================
+Documentazione |product| - NethService 8.2
+==========================================
 
 .. image:: ../_static/logo.png
          :alt: |product|
