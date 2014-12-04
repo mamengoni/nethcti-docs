@@ -4,13 +4,13 @@ Installazione
 
 Per installare il server eseguire ::
 
-  yum --enablerepo=nethvoice-11-upgrades,nethupgrade install nethcti-server
+  yum --enablerepo=nethupgrade install nethcti-server
 
 Dall'interfaccia grafica di configurazione di |parent_product|, cliccare il pulsante "Applica cambiamenti", se presente.
 
 Per installare il client eseguire ::
 
-  yum install nethcti
+  yum --enablerepo=nethupgrade install nethcti
 
 .. note:: Subito dopo la prima installazione è necessario procedere con la configurazione minima di utenti e profili.
 
@@ -26,7 +26,7 @@ Aggiornamento dalla versione 2.x
 
 Per l'aggiornamento del server eseguire: ::
 
-  yum --enablerepo=nethvoice-11-upgrades,nethupgrade update nethcti-server
+  yum --enablerepo=nethupgrade update nethcti-server
 
 L'aggiornamento del client avviene in automatico.
 
@@ -41,7 +41,7 @@ Per l'aggiornamento del server eseguire: ::
   mysqldump asterisk > /home/e-smith/nethcti/backup/asterisk.sql 2>/dev/null
   rm -f /etc/nethcti/user_prefs.json /etc/nethcti/asterisk.json 2>/dev/null
   yum remove neth-cti
-  yum --enablerepo=nethvoice-11-upgrades update nethcti-server
+  yum --enablerepo=nethupgrade update nethcti-server
 
 - Dall'interfaccia grafica di configurazione di |parent_product|, cliccare il pulsante "Applica cambiamenti", se presente.
 - Nella sezione *CTI -> Profili* creare i profili desiderati.
@@ -64,7 +64,7 @@ vanno ricreate ex-novo attraverso l'interfaccia grafica di |parent_product|.
 
 Per l'aggiornamento del client eseguire: ::
 
-  yum install nethcti
+  yum --enablerepo=nethupgrade install nethcti
 
 **Migrare i template delle customer cards**
 
@@ -93,7 +93,7 @@ Per l'aggiornamento del server eseguire: ::
   mysqldump asterisk > /home/e-smith/nethcti/backup/asterisk.sql 2>/dev/null
   rm -f /etc/nethcti/user_prefs.json /etc/nethcti/asterisk.json 2>/dev/null
   yum remove neth-cti
-  yum --enablerepo=nethvoice-11-upgrades install nethcti-server
+  yum --enablerepo=nethupgrade install nethcti-server
 
 - Dall'interfaccia grafica di configurazione di |parent_product|, cliccare il pulsante "Applica cambiamenti", se presente.
 - Nella sezione *CTI -> Profili* creare i profili desiderati.
@@ -116,7 +116,7 @@ vanno ricreate ex-novo attraverso l'interfaccia grafica di |parent_product|.
 
 Per l'aggiornamento del client eseguire: ::
 
-  yum install nethcti
+  yum --enablerepo=nethupgrade install nethcti
 
 **Migrare i template delle customer cards**
 
