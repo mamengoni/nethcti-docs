@@ -26,9 +26,7 @@ Aggiornamento dalla versione 2.x
 
 Per l'aggiornamento del server eseguire: ::
 
-  yum --enablerepo=nethupgrade update nethcti-server
-
-L'aggiornamento del client avviene in automatico.
+  yum --enablerepo=nethupgrade update nethcti-server nethcti
 
 Aggiornamento dalla versione 1.x su |parent_product| 11
 =======================================================
