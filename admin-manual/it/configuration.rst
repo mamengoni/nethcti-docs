@@ -159,6 +159,8 @@ L'utente può:
 
     attivare/disattivare lo stato di pausa di tutti gli agenti statici e dinamici delle code
 
+    bypassa la privacy per tutte le chiamate in transito su una coda
+
 **Recording**
     registrare le proprie conversazioni
 
