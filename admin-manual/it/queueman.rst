@@ -18,7 +18,7 @@ Installazione
 
 Per installare eseguire: ::
 
- yum --enablerepo=nethvoice-11-upgrades install neth-queueman
+ yum --enablerepo=nethupgrade install neth-queueman
 
 
 Aggiornamento
@@ -26,7 +26,7 @@ Aggiornamento
 
 Per aggiornare eseguire: ::
 
- yum --enablerepo=nethvoice-11-upgrades update neth-queueman
+ yum --enablerepo=nethupgrade update neth-queueman
 
 
 Configurazione
