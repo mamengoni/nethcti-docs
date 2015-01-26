@@ -14,7 +14,7 @@ Per installare il client eseguire ::
 
 .. note:: Subito dopo la prima installazione è necessario procedere con la configurazione minima di utenti e profili.
 
-Installazione chat su |product_nethserver|
+Installazione chat su |product_nethservice|
 =================================================
 
 Il server chat non viene installato automaticamente con |product|, perciò per utilizzare la chat è necessario installare ejabberd: ::
