@@ -38,7 +38,7 @@ Per l'aggiornamento del server eseguire: ::
   mysqldump nethcti > /home/e-smith/nethcti/backup/nethcti.sql 2>/dev/null
   mysqldump asterisk > /home/e-smith/nethcti/backup/asterisk.sql 2>/dev/null
   rm -f /etc/nethcti/user_prefs.json /etc/nethcti/asterisk.json 2>/dev/null
-  yum remove neth-cti
+  yum remove neth-cti nethcti-module 
   yum --enablerepo=nethupgrade update nethcti-server
 
 - Dall'interfaccia grafica di configurazione di |parent_product|, cliccare il pulsante "Applica cambiamenti", se presente.
