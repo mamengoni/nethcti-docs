@@ -39,7 +39,7 @@ Per l'aggiornamento del server eseguire: ::
   mysqldump asterisk > /home/e-smith/nethcti/backup/asterisk.sql 2>/dev/null
   rm -f /etc/nethcti/user_prefs.json /etc/nethcti/asterisk.json 2>/dev/null
   yum remove neth-cti nethcti-module 
-  yum --enablerepo=nethupgrade update nethcti-server
+  yum --enablerepo=nethupgrade install nethcti-server
 
 - Dall'interfaccia grafica di configurazione di |parent_product|, cliccare il pulsante "Applica cambiamenti", se presente.
 - Nella sezione *CTI -> Profili* creare i profili desiderati.
